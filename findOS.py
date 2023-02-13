@@ -11,6 +11,8 @@ end = input('What number do you want to end with?\n')
 s = int(start)
 e = int(end)
 
+
+
 while s < (e + 1):
 
 
@@ -34,7 +36,14 @@ while s < (e + 1):
     sheet1.write(row,0, hostName)
     sheet1.write(row,1, "153.90.162." + start)
     sheet1.write(row,2, systemModel)
-    sheet1.write(row,3, versionOS)
+    
+    if '18363' in versionOS:
+        sheet1.write(row,3, versionOS)
+        sheet1.write(row,5, 'BAD')
+    else:
+        sheet1.write(row,3, versionOS)
+        sheet1.write(row,5, 'GOOD')
+
     sheet1.write(row,4, nameos)
     os.remove("E:\output" + start + ".txt")
     s += 1
