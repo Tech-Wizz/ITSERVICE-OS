@@ -1,3 +1,5 @@
+#-----------------------------------------------Kruize Christensen-----------------------------------------------#
+
 import os
 import linecache
 import xlwt
@@ -73,3 +75,5 @@ while s < (e + 1):
 #saves results to an excel document
 wb.save('computerOS.xls')
 print("Program Completed! Save in computerOS.xls!")
+
+#-----------------------------------------------Kruize Christensen-----------------------------------------------#
