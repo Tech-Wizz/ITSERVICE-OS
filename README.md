@@ -70,3 +70,4 @@ while s < (e + 1):
 wb.save('computerOS.xls')
 print("Program Completed! Save in computerOS.xls!")
 ```
+![IDLEShell](https://kruizechristensen.github.io/images/projects/MSUITInfoFinder/IDLEShell.png)
