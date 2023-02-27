@@ -1,7 +1,7 @@
 # ITSERVICE-OS
 This program is used in a corporate setting. The systems that this is being used on are on a managed domain with an admin acount on all the computers. With this I can you this admin accounts and use the terminal to find all the windows versions located on the computers accross departments. This makes it easy to find bad os systems that could potentially harm infrastructure on the computers.
 
-'''
+```
 os.system('cmd /c "color a & ipconfig > e:\myip.txt"')
 myip = linecache.getline(r"e:\myip.txt", 8)
 myip = myip.lstrip("   IPv4 Address. . . . . . . . . . . :")
@@ -69,4 +69,4 @@ while s < (e + 1):
 #saves results to an excel document
 wb.save('computerOS.xls')
 print("Program Completed! Save in computerOS.xls!")
-'''
+```
