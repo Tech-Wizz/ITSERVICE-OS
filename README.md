@@ -27,7 +27,7 @@ while s < (e + 1):
 
     if (reply == "Destination host unreachable."):
         print(reply)
-        sheet1.write(row,1, "153.90.162." + start)
+        sheet1.write(row,1, "###.##.###." + start)
         sheet1.write(row,0, reply)
     else:
         os.system('cmd /c "color a & systeminfo /s ' + ip + start + ' > e:\output' + start + '.txt"')
@@ -47,7 +47,7 @@ while s < (e + 1):
         ##puts the data collected 
 
         sheet1.write(row,0, hostName)
-        sheet1.write(row,1, "153.90.162." + start)
+        sheet1.write(row,1, "###.##.###." + start)
         sheet1.write(row,2, systemModel)
     
         if '18363' in versionOS:
@@ -62,7 +62,7 @@ while s < (e + 1):
         
     
     start = str(s)
-    print("RAN 153.90.162." + start)
+    print("RAN ###.##.###." + start)
     s += 1
 
 
