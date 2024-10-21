@@ -1,4 +1,4 @@
-# ITSERVICE-OS
+# Mass-Computer-Information-Gatherer
 This program is used in a corporate setting. The systems that this is being used on are on a managed domain with an admin acount on all the computers. With this I can you this admin accounts and use the terminal to find all the windows versions located on the computers accross departments. This makes it easy to find bad os systems that could potentially harm infrastructure on the computers.
 
 ```
