@@ -71,3 +71,30 @@ wb.save('computerOS.xls')
 print("Program Completed! Save in computerOS.xls!")
 ```
 ![IDLEShell](https://kruizechristensen.github.io/images/projects/MSUITInfoFinder/IDLEShell.png)
+
+## Terminal Comands Used
+
+systeminfo /s ###.###.###.###  == Returns information about computer for that IP
+
+
+cmd /c color a  == Changes Color of terminal to green codes below
+
+Value	Color
+0	Black
+1	Blue
+2	Green
+3	Aqua
+4	Red
+5	Purple
+6	Yellow
+7	White
+8	Gray
+9	Light blue
+a	Light green
+b	Light aqua
+c	Light red
+d	Light purple
+e	Light yellow
+f	Bright white
+
+
